@@ -1,0 +1,210 @@
+.Products {
+    height: 700px;
+    position: relative;
+  }
+  
+  .Products .contain {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  
+  .Products .head {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+  
+
+  .Products .box{
+     display: flex;
+     flex-direction: column;
+     gap: 1.5rem;
+  }
+  
+  .Products {
+      color: var(--black)!important;
+  }
+  
+  .Products .span_text{
+      display: flex;
+      justify-content: start;
+      gap: 1.5rem;
+  }
+  
+  .Products .red{
+      color:var(--red);
+  }
+  
+  .Products .a{
+      position: relative;
+  }
+  
+  .Products span{
+   position: absolute;
+  top: 20px;
+  left: 10px;
+  background-color:var(--red);
+  color: var(--white);
+  border-radius: 50px;
+  width: 35px;
+  padding-left: 2px;
+  margin: auto;
+  }
+  
+  .Products .black2{
+      color: var(--black2);
+  } 
+
+  
+
+  
+@media(min-width:0) and (max-width:576px){
+
+  .Products{
+      top: 2400px;
+      position: absolute;
+
+  }
+
+.Products .contain{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+  justify-content: center;
+}
+  
+.Products .contain{
+ width: 400px;
+ margin: auto;
+}
+
+.Products .head{
+  position: absolute;
+  left: 40%;
+  top: -120px;
+}
+
+.Products .contain .box img{
+  width: 170px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.Products .contain h6 , .Products .contain p{
+font-size: 14px;
+}
+
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .Products{
+      top: 2500px;
+      position: absolute;
+      left: 14%;
+
+    }
+
+.Products .contain{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+  justify-content: center;
+}
+  
+.Products .contain{
+ width: 400px;
+ margin: auto;
+}
+
+.Products .head{
+  position: absolute;
+  left: 40%;
+  top: -120px;
+}
+
+.Products .contain .box img{
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.Products .contain h6 , .Products .contain p{
+font-size: 14px;
+}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    
+  .Products .contain .box img{
+    width: 180px;
+    height: 250px;
+    object-fit: cover;
+    margin: auto;
+  }
+  
+  .Products .container{
+    padding-left: 200px;
+    /* background-color: #db7676; */
+  }
+
+.Products .head{
+  padding-left: 140px;
+  width: 300px;
+}
+
+
+.Products .contain{
+  /* background-color: #3d0404; */
+  padding-left: 0;
+  position: absolute;
+  left: 16%;
+}
+
+.Products{
+  position: absolute;
+  top: 2200px;
+}
+
+    }
+
+
+  @media (min-width: 992px) and (max-width: 1200px) {
+
+      .Products .contain .box img{
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+        margin: auto;
+      }
+      
+      .Products .container{
+        padding-left: 200px;
+        /* background-color: #db7676; */
+      }
+    
+    .Products .head{
+      padding-left: 130px;
+      width: 500px;
+    }
+    
+    
+    .Products .contain{
+      /* background-color: #3d0404; */
+      padding-left: 0;
+      position: absolute;
+      left: 19%;
+    }
+    
+    .Products{
+      position: absolute;
+      top: 1700px;
+    }
+
+
+    }

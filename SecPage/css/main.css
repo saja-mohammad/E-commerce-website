@@ -1,0 +1,377 @@
+.main{
+    height: 700px;
+}
+
+.main {
+    display: flex;
+    padding-top: 60px;
+}
+
+.main .feature{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.main .fea{
+    width: 200px;
+}
+
+.main header{
+    padding-top: 40px;
+    /* display: grid; */
+    /* grid-template-columns: 2fr repeat(2,1fr); */
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main header a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+.main .fea{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.main .contain{
+    /* background-color: #69bde1; */
+    display: flex;
+    gap: 1.5rem;
+}
+
+.main .sm{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.main .sm:hover{
+    cursor:grab;
+}
+
+.main .sm img{
+    height: 100px;
+    width: 100px;
+}
+
+.main .big img{
+    height: 450px;
+    width: 450px;
+}
+
+.main .text{
+    position: relative;
+    padding-top: 50px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    height: 500px;
+}
+
+.main .sale{
+    background-color:var(--red);
+    color: var(--white);
+    border-radius: 50px;
+    /* padding-left: 2px; */
+    margin: auto;
+    width: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main .first_line{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .first_line h5{
+    font-size: 22px;
+}
+
+.main .span_text{
+    display: flex;
+    justify-content: start;
+    gap: 1.5rem;
+    font-size: 22px;
+}
+
+
+.main .red{
+    color:var(--red);
+}
+
+.main .black2{
+    text-decoration:line-through;
+}
+
+.color_boxes .sec{
+color: #b7ffbd !important;
+}
+
+/* .main .size button{
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+} */
+
+
+
+.paste-button {
+    position: relative;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .paste-button .button {
+    /* background-color: #4CAF50; */
+    background-color: #212121;
+    color: var(--yellow);
+    padding: 10px 15px;
+    font-size: 15px;
+    width: 180px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    font-size: 13px;
+    position: absolute;
+    z-index: 1;
+    min-width: 190px;
+    background-color: #212121;
+    border: 2px solid var(--yellow);
+    border-radius: 0px 15px 15px 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+  }
+  
+  .dropdown-content a {
+    color: var(--yellow);
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+    transition: 0.1s;
+    
+  }
+  
+  .dropdown-content a:hover {
+    background-color:var(--yellow);
+    color: #212121;
+  }
+  
+  /* .dropdown-content a:focus { */
+    .dropdown-content a .active {
+    color: #212121;
+    background-color: #fff;
+  }
+  
+  .dropdown-content #top:hover {
+    border-radius: 0px 13px 0px 0px;
+  }
+  
+  .dropdown-content #bottom:hover {
+    border-radius: 0px 0px 13px 13px;
+  }
+  
+  .paste-button:hover button {
+    border-radius: 15px 15px 0px 0px;
+  }
+  
+  .paste-button:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+.main .Qant_butn{
+    display: flex;
+    gap: 1.5rem;  
+}
+
+.main .Quantity{
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: var(--white);   
+    border: 1px solid var(--black2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main .Quantity button{
+    height: 20px;
+    margin: auto;
+    padding-bottom: 30px;
+    border-radius: 50px;
+
+}
+
+
+.main .add{
+    width: 180px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid var(--yellow);
+    background-color: var(--yellow);
+    border-color: transparent;
+    padding: 10px;
+    box-shadow: 0px 6px 0px var(--yellow);
+    transition: all .1s;
+}
+
+.main .add:hover{
+    box-shadow: 0px 2px 0px var(--yellow);
+    position: relative;
+    top: 2px;
+}
+
+
+.main .color_boxes{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.main .color_boxes .box{
+    width: 40px;
+    height: 40px;
+    border: 1px solid ;
+}
+
+.main .color_boxes .first{
+    background-color: var(--black);
+}
+
+.main .color_boxes .four{
+    background-color: var(--white);
+}
+
+.main .color_boxes .sec{
+    background-color: #FFE3B7;
+}
+
+.main .color_boxes .third{
+    background-color:#2900FF;
+}
+
+.btn-primary{
+ color: #000;
+ --bs-btn-bg: transparent;
+ --bs-btn-border-color: transparent;
+ --bs-btn-hover-border-color: transparent;
+ --bs-btn-hover-bg:transparent;
+ --bs-btn-hover-color:#000;
+}
+
+@media(min-width:0) and (max-width:576px){
+
+.main .contain .sm{
+    flex-direction: row;
+    position: relative;
+    left: -11%;
+    gap: 0.7rem;
+}
+
+.main .feature{
+display: none;
+}
+
+.main header nav{
+width: 400px !important;
+left: 7%;
+top: 11%;
+position: absolute;
+}
+
+.main .contain{
+    display: flex;
+    flex-direction: column;
+}
+
+.main .first_line{
+flex-direction: column;
+}
+
+.main .big{
+    position: relative;
+    left:-12%;
+}
+
+
+
+
+
+
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+   
+    .main header{
+        width: 450px;
+        flex-direction: column;
+        display: flex;
+        gap: 2rem;
+        margin-left: 10% ;
+    }
+
+
+.main .fea{
+    width: 180px;
+}
+
+.main .feature{
+    width: 400px;
+    margin-left: 5%;
+display: flex;
+justify-content: space-between;
+}
+
+
+    .main .contain .sm{
+        flex-direction: row;
+        gap: 0.9rem;
+    }
+    
+    .main .contain{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 8%;
+    }
+    
+    .main .first_line{
+    flex-direction: column;
+    }
+ }
+
+ @media (min-width: 768px) and (max-width: 992px){
+
+    .main .contain .sm{
+        flex-direction: row;
+        gap: 0.9rem;
+    }
+    
+    .main .contain{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 20%;
+    }
+    
+    .main .first_line{
+    flex-direction: column;
+    }
+ }

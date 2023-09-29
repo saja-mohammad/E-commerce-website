@@ -1,0 +1,502 @@
+.reaction{
+    height: 700px;
+    padding-top: 100px;
+    /* background-color: #f1e7e73e; */
+}
+
+.reaction  button{
+    border: none !important;
+    color: var(--black);
+
+}
+
+ .reaction button.active{
+    border: 1px solid var(--yellow) !important;
+    border-radius: 50px !important;
+    background-color: var(--white) !important;
+    color: var(--black) !important;
+}
+
+
+.reaction .nav{
+    display: flex !important;
+    justify-content: center !important;
+    gap: 3rem;
+    padding-bottom: 50px;
+} 
+
+.reaction #pills-Description .row{
+    /* background-color: #8f1313; */
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between !important;
+    gap: 4rem;
+}
+
+#pills-Description .col{
+    /* background-color: #c8ed8c; */
+    position: relative;
+}
+
+.reaction #pills-Description .col img{
+display: flex !important;
+justify-content: center !important;
+/* background-color: #c8aeae; */
+position: absolute;
+left: 45%;
+}
+
+.reaction #pills-Description .row p{
+    width: 300px;
+}
+
+.reaction #pills-Description .col .text{
+    gap: 1.5rem;
+    display: flex;
+    /* background-color: #3f384f; */
+    flex-direction: column;
+    padding-top: 120px;
+    align-items: center;
+    text-align: center;
+}
+
+.reaction #pills-Description .p_img{
+    position: absolute;
+    top: 210px;
+    left: 140px !important;
+}
+
+.reaction  .one .add_opinion{
+    background-color: var(--yellow);
+    border-radius: 19px;
+    width: 160px;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.reaction .one{
+    /* background-color: #e5bcbc; */
+    height: 400px;
+    width: 300px !important;
+    margin: auto;
+    gap: 4rem !important;
+    padding-left: 300px;
+    padding-top: 100px;
+
+}
+
+.reaction .colums2{
+    gap: 3rem !important;
+
+}
+
+.reaction .box {
+    padding-bottom: 20px;
+}
+
+.reaction .box .text{
+font-size: 13px;
+width: 500px !important;
+
+}
+
+
+
+.reaction .star_line .line4 , .reaction .star_line .line3{ 
+    position: relative !important;
+}
+
+.reaction .star_line .line4_sec ,.reaction .star_line .line3_sec{
+    position: absolute !important;
+    left: 570px;
+}
+
+/* 
+     @media(min-width:0) and (max-width:576px){
+    
+    .reaction{
+        position: absolute;
+        top: 1300px;
+    }
+
+    .reaction .first_col{
+        padding-left: 0;
+        margin-left: 0;
+        position: absolute;
+        left: 10%;
+        width: 150px;
+    }
+
+.reaction .colums2{
+    margin-left: 0;
+}
+
+.reaction .one{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.reaction button.add_opinion{
+    position: absolute;
+    top: 520px;
+    left: 70px;
+}
+
+
+
+
+.reaction .two .box{
+    padding: 3%;
+    width: 440px !important;
+    margin: auto;
+}
+
+
+.reaction .two .box p{
+    width: 400px;
+}
+      }
+
+    
+    @media (min-width: 576px) and (max-width: 768px) {
+        .reaction{
+            position: absolute;
+            top: 1300px;
+            background-color: #b38282;
+            height: 1300px;
+        }
+
+        .reaction .one{
+            padding-top: 0px;
+        }
+    
+        .reaction .first_col{
+            padding-left: 0;
+            margin-left: 0;
+            position: absolute;
+            left: 10%;
+            width: 150px;
+        }
+    
+    .reaction .colums2{
+        margin-left: 0;
+    }
+    
+    .reaction .one{
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .reaction button.add_opinion{
+        position: absolute;
+        top: 520px;
+        left: 70px;
+    }
+    
+    
+    
+    
+    .reaction .two .box{
+        padding: 3%;
+        width: 440px !important;
+        margin: auto;
+    }
+    
+    
+    .reaction .two .box p{
+        width: 400px;
+    }
+    
+     }
+    
+     @media (min-width: 768px) and (max-width: 992px){
+    
+     } */
+
+     @media (min-width: 0) and (max-width: 576px) {
+        .reaction {
+          position: absolute;
+          top: 1300px;
+        }
+      
+        .reaction .first_col {
+          padding-left: 0;
+          margin-left: 0;
+          position: absolute;
+          left: 10%;
+          width: 150px;
+        }
+      
+        .reaction .colums2 {
+          margin-left: 0;
+        }
+      
+        .reaction .one {
+          justify-content: space-around;
+          display: flex;
+          flex-direction: column;
+          height: 100px;
+          padding-top: 0px;
+        }
+      
+        .reaction button.add_opinion {
+          position: absolute;
+          top: 310px;
+          left: 60px;
+        }
+      
+        .reaction #pills-Description .p_img {
+          left: 55px !important;
+        }
+      
+        .reaction .two{
+          padding-top: 60px;
+        }
+      
+      .reaction .two .c{
+          display: none;
+      }
+      
+        .reaction .two .box {
+          padding: 3%;
+          width: 440px !important;
+          margin: auto;
+        }
+      
+        .reaction .two .box p {
+          width: 400px;
+        }
+      
+        .reaction .star_line .line4_sec, .reaction .star_line .line3_sec {
+          position: absolute !important;
+          left: 320px;
+      }
+      
+        
+      
+       
+      }
+      
+      @media (min-width: 576px) and (max-width: 768px) {
+        .reaction {
+          position: absolute;
+          top: 1400px;
+          height: 800px;
+        }
+      
+        .reaction .one {
+          height: 130px;
+          padding-top: 0;
+          /* background-color: #1d0977; */
+          width: 600px;
+          margin-left: 100px;
+      }
+      
+      .reaction .star_line .line4_sec,
+       .reaction .star_line .line3_sec {
+          position: absolute !important;
+          left: 425px;
+      }
+      
+        .reaction .first_col {
+          padding-left: 0;
+          margin-left: 0;
+          position: absolute;
+          left: 10%;
+          width: 150px;
+        }
+      
+        .reaction .colums2 {
+          margin-left: 0;
+        }
+      
+        .reaction .one {
+          justify-content: space-around;
+          display: flex;
+          flex-direction: column;
+        }
+      
+        .reaction button.add_opinion {
+          position: absolute;
+          top: 310px;
+          left: 100px;
+        }
+      
+        .reaction .two .box {
+          padding: 0%;
+          width: 440px !important;
+          margin: auto;
+          padding: 20px 0;
+        }
+      
+        .reaction .two .box p {
+          width: 400px;
+        }
+      
+        .reaction .two{
+          padding-top: 90px;
+      }
+      
+        .reaction .two .c{
+          display: none;
+      }
+      
+      .reaction #pills-Description .p_img {
+          position: absolute;
+          top: 210px;
+          left: 100px !important;
+      }
+      
+      }
+      
+      @media (min-width: 768px) and (max-width: 992px){
+          .reaction {
+              position: absolute;
+              top: 1400px;
+              height: 800px;
+              width: 100%;
+            }
+          
+            .reaction .one {
+              height: 130px;
+              padding-top: 0;
+              /* background-color: #1d0977; */
+              width: 600px;
+              margin-left: 100px;
+          }
+          
+          .reaction .star_line .line4_sec,
+           .reaction .star_line .line3_sec {
+              position: absolute !important;
+              left: 275px;
+          }
+          
+            .reaction .first_col {
+              padding-left: 0;
+              margin-left: 0;
+              position: absolute;
+              left: 4%;
+              width: 150px;
+              /* background-color: #9e148c; */
+            }
+          
+            .reaction .colums2 {
+              /* background-color: #27cb4b; */
+              margin-left: 0;
+      
+            }
+          
+            .reaction .one {
+              padding-left: 150px;
+          }
+          
+            .reaction button.add_opinion {
+              position: absolute;
+              top: 590px;
+              left: 10px;
+            }
+          
+            .reaction .two .box {
+              padding: 0%;
+              width: 440px !important;
+              margin: auto;
+              padding: 20px 0;
+            }
+          
+            .reaction .two .box p {
+              width: 400px;
+            }
+          
+            .reaction .two{
+              padding-top: 90px;
+          }
+          
+            .reaction .two .c{
+              display: none;
+          }   
+      
+          .reaction #pills-Description .p_img {
+              position: absolute;
+              top: 210px;
+              left: 200px !important;
+          }
+      } 
+      
+      @media (min-width: 992px) and (max-width: 1200px){
+          .reaction {
+              position: absolute;
+              top: 850px;
+              height: 800px;
+              width: 100%;
+            }
+          
+            .reaction .one {
+              height: 130px;
+              padding-top: 0;
+              width: 600px;
+              margin-left: 100px;
+          }
+          
+          .reaction .star_line .line4_sec,
+           .reaction .star_line .line3_sec {
+              position: absolute !important;
+              left: 325px;
+          }
+          
+            .reaction .first_col {
+              padding-left: 0;
+              margin-left: 0;
+              position: absolute;
+              left: 10%;
+              width: 150px;
+            }
+          
+            .reaction .colums2 {
+              margin-left: 0;
+            }
+          
+            .reaction .one {
+              padding-left: 150px;
+              gap: 3rem !important;
+              display: flex;
+          }
+          
+          .reaction .sec_col{
+              margin-left: 50px;
+          }
+      
+            .reaction button.add_opinion {
+              position: absolute;
+              top: 480px;
+              left: 30px;
+            }
+          
+            .reaction .two .box {
+              padding: 0%;
+              width: 440px !important;
+              margin: auto;
+              padding: 20px 0;
+            }
+          
+            .reaction .two .box p {
+              width: 400px;
+            }
+          
+            .reaction .two{
+              padding-top: 90px;
+          }
+          
+            .reaction .two .c{
+              display: none;
+          }   
+      
+          .reaction #pills-Description .p_img {
+              position: absolute;
+              top: 210px;
+              left: 200px !important;
+          }
+      } 

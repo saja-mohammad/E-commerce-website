@@ -1,0 +1,214 @@
+  .Selected {
+    position: relative;
+    height: 600px;
+    /* min-width: 1500 !important; */
+  }
+  @media (min-width: 1400px) 
+  {
+    .container{
+      max-width: 1160px;
+    }
+  }
+  .Selected .contain {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    /* background-color: #e0bbbb; */
+  }
+  
+  .Selected .head {
+    display: flex;
+    padding: 20px 10px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    width: 99%;
+  }
+  
+  .Selected .head button {
+    background-color: transparent!important;
+    border-radius: 50px;
+    width: 120px;
+  }
+  
+  .Selected .box{
+     display: flex;
+     flex-direction: column;
+     gap: 1.5rem;
+  }
+  
+  .Selected {
+      color: var(--black)!important;
+  }
+  
+  .Selected .span_text{
+      display: flex;
+      justify-content: start;
+      gap: 1.5rem;
+  }
+  
+  .Selected .red{
+      color:var(--red);
+  }
+  
+  .Selected .a{
+      position: relative;
+  }
+  
+  .Selected span{
+   position: absolute;
+  top: 20px;
+  left: 10px;
+  background-color:var(--red);
+  color: var(--white);
+  border-radius: 50px;
+  width: 35px;
+  padding-left: 2px;
+  margin: auto;
+  }
+  
+  .Selected .black2{
+      color: var(--black2);
+  }
+  
+  .Selected .carousel-control-prev{
+  position: absolute;
+  left: -70px;
+  top: 160px;
+  color: var(--black) !important;
+  background-color: transparent !important;
+  }
+  
+  .Selected .carousel-control-next{
+    position: absolute;
+    right: -190px;
+    top: 160px;
+    
+  }
+  
+  @media(min-width:0) and (max-width:576px){
+
+  .Selected{
+    position: absolute;
+    top: 2300px;
+    left: 0%;
+  }
+  .Selected .carousel-control-prev , .Selected .carousel-control-next{
+    display: none !important; 
+  }
+  
+  .Selected .contain {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    /* gap: 0.6rem; */
+    /* justify-content: center; */
+    width:450px;
+  }
+  
+  .Selected .contain .box img{
+    width: 130px !important; 
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .Selected .contain h6 ,.Selected .contain p{
+  font-size: 12px;
+  }
+  
+  }
+  
+  
+  
+   @media (min-width: 576px) and (max-width: 768px) {
+
+    .Selected{
+      position: absolute;
+      top: 2500px;
+      left: 5%;
+    }
+  
+  .Selected .carousel-control-prev , .Selected .carousel-control-next{
+    display: none !important; 
+  }
+  
+  .Selected .contain .box img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  
+  .Selected .contain {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 1rem;
+    width: 80%;
+    justify-content: center;
+  }
+  
+  .Selected .container{
+    min-width: 600px;
+    margin:auto;
+  }
+  
+  
+    }
+  
+  
+    @media (min-width: 768px) and (max-width: 992px) {
+      .Selected{
+        /* background-color: #9c2222; */
+        position: absolute;
+        top: 2300px;
+        height: 450px;
+      }
+
+      .Selected .contain .box img{
+        width: 160px;
+        height: 250px;
+        object-fit: cover;
+      }
+      
+      .Selected .carousel-control-next{
+          right: -120px;
+      }
+      
+      .Selected .container{
+        min-width: 800px;
+      }
+
+      .Selected .contain h6 ,.Selected .contain p{
+        font-size: 13px;
+        }
+
+        }
+  
+
+    @media (min-width: 992px) and (max-width: 1200px) {
+
+           .Selected{
+             position: absolute;
+             top: 1800px;
+             left: 6%;
+             margin: auto;
+           }
+
+           .Selected .container{
+             min-width: 1000px;
+             margin: auto;
+           }
+
+          .Selected .contain .box img{
+            width: 200px;
+            height: 300px;
+            object-fit: cover;
+          }
+          
+          .Selected .carousel-control-next{
+              right: -130px;
+          }
+        
+        }
+  

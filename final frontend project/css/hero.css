@@ -1,0 +1,140 @@
+ 
+.hero .card{
+    display: none;
+}
+
+.hero .contain{
+color: var(--white);
+position: absolute;
+left: 23%;
+/* top: 25%; */
+top: 150px;
+width: 400px;
+z-index:999;
+}
+
+.hero h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hero .hero-link{
+    padding-top: 30px;
+}
+
+.hero .hero-link i {
+    background-color: var(--yellow);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero .fea{
+    position: absolute;
+    padding: 15px 80px;
+    padding-left: 130px;
+    display: flex;
+    gap: 5rem !important;
+    background-color: var(--white);    
+    border-radius: 0 100px 0 0;
+    height: 170px;
+    width: 60%;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+}
+
+.hero .cards{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 6rem;
+}
+
+.hero .fea .box{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+}
+
+.hero .fea .box h6{
+    color: var(--black)!important;
+}
+
+.hero .fea .box p{
+    color: var(--black2)!important;
+    width: 150px;
+    font-size: 14px;
+}
+
+.hero .arrows{
+position: absolute;
+bottom: 70px;
+right: -300px;
+gap: 1.5rem;
+display: flex;
+}
+
+/* .he4 .arrows button{ */
+    .hero .arrows{ 
+    width: 50px !important;
+    height: 50px;
+    border-color: transparent;
+    z-index: 99999999;
+}
+
+.hero .arrows .prev{
+    color: var(--white);
+    background-color:var(--black3)!important;
+    border-color: transparent;
+}
+
+.hero .arrows .next {
+    color: var(--black)!important;
+    background-color: var(--white1);
+} 
+
+
+@media(min-width:0) and (max-width:992px){
+
+    .hero .fea{
+        display: none;
+    }
+ 
+.hero .carousel-inner .carousel-item {
+    background-image: url(../img/xsm.png) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero .contain{
+    left: 13%;
+    top: 340px;
+    width: 400px;
+    z-index:999;
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .hero .fea{
+        display: none !important;
+    }
+ 
+
+    .hero .contain{
+        left: 13%;
+        top: 340px;
+        width: 400px;
+        z-index:999;
+    }
+    
+
+
+
+}

@@ -1,0 +1,147 @@
+.about{
+    height: 500px;
+    /* background-color: #8b1919; */
+    padding-top: 80px;
+    /* padding-left: 100px; */
+}
+
+.about .head{
+    display: flex;
+    justify-content: center;
+    color: var(--black);
+padding-bottom: 50px;
+}
+
+.about .contain{
+    display: grid;
+    width: 110%;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 1rem;
+}
+
+.about .box{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about .text{
+    width: 160px;
+    font-size: 13px;
+}
+
+.about .text h6{
+    color: var(--black);
+}
+
+
+.about .text p{
+    color: var(--black2);
+}
+
+
+
+@media(min-width:0) and (max-width:576px){
+
+    .about{
+        top: 1600px;
+        position: absolute;
+        display: flex;
+        margin: auto;
+    }
+
+ .about .contain{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    justify-content: center;
+
+}
+    
+ .about .contain{
+   width: 400px;
+   margin: auto;
+}
+
+
+.about .box{
+    display: flex;
+    /* justify-content: start; */
+    align-items:center;
+    text-align: center;
+}
+
+ }
+
+
+ @media (min-width: 576px) and (max-width: 768px) {
+
+    .about{
+        top: 1700px;
+        position: absolute;
+        display: flex;
+        margin: auto;
+       left: 14%;
+    }
+
+ .about .contain{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    justify-content: center;
+   width: 400px;
+   margin: auto;
+   /* background-color: #917a7a; */
+}
+
+.about .container{
+    /* background-color: #962b2b; */
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about .box{
+    display: flex;
+    align-items:center;
+    text-align: center;
+}
+
+ } 
+
+
+ @media (min-width: 768px) and (max-width: 992px) {
+
+
+    .about{
+        top: 1730px;
+        position: absolute;
+        display: flex;
+        margin: auto;
+       left: 25%;
+    }
+
+ .about .contain{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    justify-content: center;
+   width: 400px;
+   margin: auto;
+   /* background-color: #917a7a; */
+}
+
+.about .container{
+    /* background-color: #962b2b; */
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about .box{
+    display: flex;
+    align-items:center;
+    text-align: center;
+}
+
+ }

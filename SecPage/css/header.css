@@ -1,0 +1,165 @@
+.navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 0px;
+  padding-left: 100px;
+
+}
+
+.navbar-nav {
+  padding-left: 100px;
+  display: flex;
+  gap: 3rem;
+}
+
+.navbar-icons {
+  display: flex;
+  gap: 1rem;
+  padding-right: 0 !important;
+  order: 5;
+}
+
+.container-fluid a {
+  display: flex;
+  gap: 1rem;
+
+}
+
+.navbar-brand {
+  margin-right: 150px;
+}
+
+
+.hero .navbar{
+    padding-left: 120px !important;
+    padding-right: 120px !important;
+    background-color: var(--white);
+    border-bottom: 1px var(--black) solid;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+
+
+
+.hero .nav_div{
+position: fixed;
+top: 9vh;
+background-color: var(--black2);
+left: 0;
+width: 100%;
+height: 350px;
+z-index: 999;
+margin: auto;
+display: grid;
+align-items: center;
+justify-content: space-around;
+justify-items: center;
+transform: translateX(-100%);
+transition: 0.5s;
+}
+
+.hero .nav_div.show{
+transform: translateX(0%);
+}
+
+.hero .nav_div a{
+text-decoration:none;
+/* color: var(--black) !important; */
+color: var(--white) !important;
+font-size: 12px;
+}
+
+.hero .nav_div h2{
+/* color: var(--black) !important; */
+color: var(--white) !important;
+font-size: 14px;   
+}
+
+.hero .nav_div .col {
+padding-left: 100px;
+gap: 0.5rem;
+}
+
+.hero.navbar-icons button:hover{
+background-color: var(--black2) !important;
+border-color:var(--black2) !important;
+}
+
+.hero .navbar-brand span{
+color: var(--yellow);
+font-weight: bold;
+padding-right: 0;
+margin-right: 0;
+}
+
+
+.hero .hero-link span{
+font-size: 20px;
+}
+
+
+.navbar-nav a{
+line-height: 2;
+position: relative;
+}
+
+.navbar-nav a::before {
+content: '';
+width: 0;
+height: 2px;
+border-radius: 2px;
+background-color: #f2fcf4;
+position: absolute;
+bottom: -5px;
+left: 0;
+transition: width .4s;
+}
+
+.navbar-nav a:hover::before {
+width: 100%;
+}
+
+@media(min-width:0) and (max-width:992px){
+
+.hero .navbar{
+display: flex;
+flex-direction: row;
+padding-left: 0px !important;
+padding-right: 0px !important;
+
+} 
+
+.hero .navbar-icons .btn{
+--bs-btn-padding-x:0rem;
+
+}
+
+.headEnd{
+display: flex;
+flex-direction: row;
+gap: 1rem;
+position: fixed;
+top: 12px;
+right: 15px;
+}
+
+.navbar-nav {
+  gap: 1.5px;
+}
+
+
+.hero .nav_div .col {
+  padding-left: 0;
+  max-width: 100px;
+  font-size: 11px;
+  padding-top: 50px;
+}
+
+.hero .nav_div{
+  height: 420px;
+}
+
+
+
+}

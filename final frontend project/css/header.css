@@ -1,0 +1,230 @@
+.navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 0px;
+  padding-left: 100px;
+}
+
+.navbar-nav {
+  padding-left: 100px;
+  display: flex;
+  gap: 3rem;
+  color: var(--white);
+}
+
+.navbar-icons {
+  display: flex;
+  gap: 1rem;
+  padding-right: 0 !important;
+  color: var(--white) !important;
+}
+
+.navbar-icons button {
+  border: none;
+  background-color: transparent;
+  color: var(--white) !important;
+}
+
+.container-fluid a {
+  display: flex;
+  gap: 1rem;
+  color: var(--white) !important;
+}
+
+.navbar-brand {
+  margin-right: 150px;
+  color: var(--white);
+}
+
+.navbar {
+  color: var(--white);
+  padding-left: 120px !important;
+  padding-right: 120px !important;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  width: 100%;
+}
+
+.main .nav_div {
+  position: fixed;
+  top: 9vh;
+  background-color: var(--white);
+  left: 0;
+  width: 100%;
+  height: 350px;
+  z-index: 999;
+  margin: auto;
+  display: grid;
+  align-items: center;
+  justify-content: space-around;
+  justify-items: center;
+  transform: translateX(-100%);
+  transition: 0.5s;
+}
+
+.main .nav_div.show {
+  transform: translateX(0%);
+}
+
+.main .nav_div a {
+  text-decoration: none;
+  color: var(--black) !important;
+  font-size: 12px;
+}
+
+.main .nav_div h2 {
+  color: var(--black) !important;
+  font-size: 14px;
+}
+
+.main .nav_div .col {
+  padding-left: 100px;
+  gap: 0.5rem;
+}
+
+.main.navbar-icons button:hover {
+  background-color: var(--black2) !important;
+  border-color: var(--black2) !important;
+}
+
+.main .navbar-brand span {
+  color: var(--yellow);
+  font-weight: bold;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.main .main-link span {
+  font-size: 20px;
+}
+
+.navbar-nav a {
+  line-height: 2;
+  position: relative;
+}
+
+.navbar-nav a::before {
+  content: "";
+  width: 0;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #f2fcf4;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  transition: width 0.4s;
+}
+
+.navbar-nav a:hover::before {
+  width: 100%;
+}
+
+ .navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 0px;
+  padding-left: 100px;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 2rem;
+  position: fixed;
+  right: 40%;
+}
+
+.navbar-icons {
+  display: flex;
+  gap: 1rem;
+  padding-right: 0 !important;
+  order: 5;
+  /* background-color: #2c35d6;
+  position: absolute;
+  top: 30px;
+  right: 50px; */
+}
+
+.container-fluid a {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-brand {
+  margin-right: 150px;
+}
+
+.main .navbar {
+  padding-left: 120px !important;
+  padding-right: 120px !important;
+  /* background-color: var(--white); */
+  /* border-bottom: 1px var(--black) solid; */
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+}
+
+.btn-primary {
+  --bs-btn-color: var(--black);
+  --bs-btn-bg: transparent;
+  --bs-btn-border-color: transparent;
+  --bs-btn-hover-color: var(--black);
+  --bs-btn-hover-bg: transparent;
+  --bs-btn-hover-border-color: transparent;
+}
+
+@media (min-width: 0) and (max-width: 992px) {
+  .navbar-nav {
+    padding-left: 100px;
+    display: flex;
+    gap: 1.5rem;
+    /* background-color: #721919; */
+  }
+
+  .main .nav_div .col {
+    /* background-color: #431dcd; */
+    padding-left: 0;
+    max-width: 100px;
+    font-size: 11px;
+  }
+
+  .main .navbar {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    color: var(--black) !important;
+  }
+
+  .main .navbar-icons .btn {
+    --bs-btn-padding-x: 0rem;
+    color: var(--black) !important;
+  }
+
+  .headEnd {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    position: fixed;
+    right: 15px;
+    top: 15px;
+  }
+}
+
+
+@media (min-width: 992) and (max-width: 1200px) {
+  .navbar {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    background-color: rgb(188, 180, 180);
+    /* color: black !important; */
+  }
+
+  .navbar-icons button i {
+    display: flex !important;
+  }
+
+  .main .navbar-brand {
+    color: black !important;
+  }
+}
